@@ -27,3 +27,5 @@ export function Contacts() {
         </section>
     )
 }
+
+export default Contacts
