@@ -1,5 +1,7 @@
-export async function Contact() {
+function Contact() {
     return <main>
 
     </main>
 }
+
+export default Contact
