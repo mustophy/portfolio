@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Button } from "../(components)/Buttons";
+import { DotImagesIcon, PipelineIcon } from "../(components)/Icons";
 
 function Hero() {
     return (
@@ -12,11 +13,13 @@ function Hero() {
                 <Button className="mt-[25px]" title="Contact me!" handleClick={() => { }} />
             </div>
             <div>
-                <div className="w-[80%] max-w-[457px] ml-auto flex relative h-[386px] ">
+                <div className="w-[80%] max-w-[457px] flex relative h-[386px] ">
+                    <PipelineIcon className="absolute top-20"/>
                     <Image src="/hero.png" alt="hero" fill={true} />
-                    <div className="flex items-center border gap-x-[10px] bg-grey-80 absolute translate-x-[50%] -left-[50%] w-fit -bottom-12 py-[10px] px-2">
+                    <DotImagesIcon className="absolute right-4 bottom-20"/>
+                    <div className="flex items-center border gap-x-[10px] bg-grey-80 absolute w-full pr-5 -bottom-12 py-[10px] px-2">
                         <div className="h-4 w-4 bg-primary"></div>
-                        <p className="mr-20">Currently working on <span className="text-white font-[700]">Portfolio</span></p>
+                        <p style={{ wordSpacing: '4px'}} className="">Currently working on <span className="text-white font-[700]">Portfolio</span></p>
                     </div>
                 </div>
             </div>

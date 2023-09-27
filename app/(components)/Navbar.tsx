@@ -8,7 +8,7 @@ function Navbar() {
                 <div className="w-6 h-6 bg-white rounded-md"></div>
                 <p className="text-white leading-[0px] font-[700]">Mustapha</p>
             </div>
-            <div className="flex ml-auto w-[40%] gap-x-8">
+            <div className="flex justify-between ml-auto w-[50%] gap-x-8">
                 {navList.map(nav => (
                     <Link href={nav.url} className="flex items-center">
                         <HashIcon />
