@@ -2,12 +2,12 @@ import { DiscordIcon, GithubIcon } from "./Icons"
 
 function Footer() {
     return (
-        <footer className="px-[15%] py-8 mt-[145px] border-t border-grey-70">
+        <footer className=" px-4 sm:px-[15%] py-8 mt-20 sm:mt-[145px] border-t border-grey-70">
             <div className="flex justify-between">
                 <div>
                     <div className="flex items-center gap-x-2">
                         <div className="w-6 h-6 bg-white/90 rounded-md"></div>
-                        <p className="text-white leading-[0px] font-[500]">Mustapha</p>
+                        <p className="text-white font-[500]">Mustapha</p>
                     </div>
                     <p style={{ wordSpacing: '2px' }} className="mt-4 text-white">Front-end web developer</p>
                 </div>

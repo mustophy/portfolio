@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${firaCode.className} bg-background`}>
-        <div className='max-w-[70%] mx-auto'>
+        <div className='px-4 sm:max-w-[70%] mx-auto'>
           <Navbar />
           {children}
         </div>

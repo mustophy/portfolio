@@ -9,11 +9,11 @@ export function Projects() {
         <section className="mt-[74px]">
             <div className="flex items-center mb-12 ">
                 <span className="section-title text-primary">#</span>
-                <h2 className="section-title leading-[0px]">projects</h2>
-                <div className="flex-1 h-[2px] ml-4 bg-primary max-w-[50%]"></div>
+                <h2 className="section-title">projects</h2>
+                <div className="hidden sm:block flex-1 h-[2px] ml-4 bg-primary max-w-[50%]"></div>
                 <p className="ml-auto tracking-[0%] text-white font-[500]">View all {'~~>'}</p>
             </div>
-            <div className="grid grid-cols-3 gap-x-4">
+            <div className="grid sm:grid-cols-3 gap-4">
                 {projectsList.map(({ about, status, technologies, imageUrl, title }) => (
                     <ProjectCard
                         imageUrl={imageUrl}
