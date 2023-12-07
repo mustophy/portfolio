@@ -4,7 +4,7 @@ import { ProjectInterface, SkillInterface } from "@/types";
 
 export function SkillCard({ title, skills } : SkillInterface) {
     return (
-        <div className="border border-grey-70">
+        <div className="border h-fit border-grey-70">
             <p className="border-b border-grey-70 px-2 text-white font-[600] py-2">{title}</p>
             <div className="flex flex-wrap gap-2 p-2">
                 {skills.map(skill => <span key={skill} className="">{skill}</span>)}

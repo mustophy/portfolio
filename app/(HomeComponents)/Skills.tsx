@@ -47,27 +47,27 @@ export function Skills() {
     )
 }
 
-const languageData: SkillInterface = {
+export const languageData: SkillInterface = {
     title: 'Languages',
     skills: ['Typescript', 'Lua', 'Python', 'Javascript']
 }
 
-const databaseData: SkillInterface = {
+export const databaseData: SkillInterface = {
     title: 'Databases',
     skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'MariaDB']
 }
 
-const toolsData: SkillInterface = {
+export const toolsData: SkillInterface = {
     title: 'Tools',
     skills: ['VSCode', 'Neovim', 'Linux', 'Figma', 'XFCE', 'Arch', 'Git', 'Font Awesome', 'Bootstrap']
 }
 
-const otherData: SkillInterface = {
+export const otherData: SkillInterface = {
     title: 'Others',
     skills: ['HTML', 'CSS', 'Webpack', 'REST', 'Graphql']
 }
 
-const frameWorkData: SkillInterface = {
+export const frameWorkData: SkillInterface = {
     title: 'Frameworks',
     skills: ['React', 'Vue', 'Express', 'Next', 'Gatsby', 'Rest']
 }
