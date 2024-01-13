@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { SkillCard } from "../(components)/Cards";
-import { languageData, otherData, databaseData, toolsData, frameWorkData } from "../(HomeComponents)/Skills";
+import { languageData, databaseData, frameWorkData, otherData, toolsData } from "../page";
 
 function AboutMe() {
     return (
@@ -10,9 +10,9 @@ function AboutMe() {
                 <span className="section-title ">about-me</span>
             </div>
             <p className="text-white">Who am I?</p>
-            <div className="grid grid-cols-5">
+            <div className="grid sm:grid-cols-5">
 
-                <p className="mt-32 col-span-3">
+                <p className="mt-10 sm:mt-32 col-span-3">
                     Hello, i’m Ozovehe! <br />
                     <br />
                     I’m a self-taught front-end developer based in Nigeria. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.
@@ -28,7 +28,7 @@ function AboutMe() {
                 <span className="section-title text-primary">#</span>
                 <span className="section-title ">skills</span>
             </div>
-            <div className="grid grid-cols-5 gap-x-4 mt-12">
+            <div className="grid sm:grid-cols-5 gap-x-4 mt-12">
                 {[languageData, databaseData, toolsData, otherData, frameWorkData].map(({ title, skills }) => (
                     <SkillCard
                         title={title}

@@ -8,7 +8,7 @@ function Contact() {
                 <span className="section-title ">contacts</span>
             </div>
 
-            <div className="grid grid-cols-6 mt-6">
+            <div className="grid sm:grid-cols-6 mt-6">
                 <p className="col-span-3">
                     I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me
                 </p>

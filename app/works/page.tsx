@@ -12,7 +12,7 @@ function Works() {
                 <span className="section-title text-primary">#</span>
                 <h2 className="section-title">complete-apps</h2>
             </div>
-            <div className="grid grid-cols-3 gap-x-4 gap-y-4">
+            <div className="grid sm:grid-cols-3 gap-x-4 gap-y-4">
                 {projectsList.map(({ title, technologies, about, status, imageUrl }) => (
                     <ProjectCard
                         title={title}
@@ -27,7 +27,7 @@ function Works() {
                 <span className="section-title text-primary">#</span>
                 <h2 className="section-title">small-projects</h2>
             </div>
-            <div className="grid grid-cols-3 gap-x-4 gap-y-4">
+            <div className="grid sm:grid-cols-3 gap-x-4 gap-y-4">
                 {projectsList.map(({ title, technologies, about, status, imageUrl }) => (
                     <ProjectCard
                         title={title}
